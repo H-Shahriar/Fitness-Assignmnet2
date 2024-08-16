@@ -595,4 +595,256 @@ footer{
 
 
 /* responsive design */
+@media only screen and (max-width: 576px) {
+   /* Navbar */
+   @media only screen and (max-width: 576px) {
+      /* Navbar */
+      .navbar {
+          flex-direction: row;
+          justify-content: space-between;
+          padding: 15px 20px;
+          width: 100%;
+      }
+  
+      .brand {
+          font-size: 1.8rem;
+      }
+  
+      .nav-links {
+          display: none; /* Hide nav links for mobile (assuming a mobile menu will appear) */
+      }
+  
+      /* Add a mobile menu icon */
+      .navbar::after {
+         content: "\2630"; /* Hamburger menu icon */
+         font-size: 2.5rem;
+         color: white;
+         cursor: pointer;
+         position: absolute;
+         right: 20px;
+         top: 15px;
+     }
+  
+      /* Banner Section */
+      .banner {
+          flex-direction: column;
+          padding: 20px;
+          text-align: center;
+      }
+  
+      .banner-title {
+          font-size: 2.5rem;
+      }
+  
+      .miama-font {
+          font-size: 2.7rem;
+      }
+  
+      .banner-description {
+          font-size: 1rem;
+          margin-bottom: 20px;
+      }
+  
+      .btn-primary {
+          padding: 12px 30px;
+          font-size: 1rem;
+          margin: 10px 0;
+      }
+  
+      .banner-content {
+          max-width: 100%;
+          margin-bottom: 20px;
+      }
+  
+      /* Image container adjustments */
+      .banner-image-container {
+          position: relative;
+          margin-top: 0;
+          display: block;
+          text-align: center;
+      }
+  
+      .banner-image {
+          width: 80%;
+          margin: 0 auto;
+      }
+  
+      /* Badge styles for mobile */
+      .badge {
+          font-size: 1rem;
+          padding: 10px 15px;
+          border-radius: 10px;
+          width: auto;
+          box-shadow: none;
+      }
+  
+      .badge.top-right {
+          top: 10px;
+          right: 50%;
+          transform: translateX(50%);
+      }
+  
+      .badge.bottom-left {
+          bottom: 10px;
+          left: 50%;
+          transform: translateX(-50%);
+      }
+  }
+  
+
+   /* Change Your Habits Section */
+   .habits-section {
+       text-align: center;
+       padding: 20px;
+   }
+
+   .habit.section {
+       flex-direction: column;
+       gap: 20px;
+   }
+
+   .habit img {
+       width: 70%;
+       margin: 20px auto;
+   }
+
+   .habits-title {
+       font-size: 2rem;
+       margin-bottom: 20px;
+   }
+
+   .habit-title {
+       font-size: 1.1rem;
+   }
+
+   .habit-description {
+       font-size: 0.9rem;
+   }
+
+   /* Run an Extra Mile Section */
+   .mile-section {
+       flex-direction: column;
+       text-align: center;
+       padding: 20px;
+   }
+
+   .mile {
+       max-width: 100%;
+       padding: 20px;
+   }
+
+   .mile-title {
+       font-size: 2rem;
+   }
+
+   .mile-description {
+       font-size: 0.9rem;
+       margin-bottom: 20px;
+   }
+
+   .image-container {
+       width: 100%;
+       height: auto;
+       margin-top: 20px;
+   }
+
+   /* Trainings and Exercises Section */
+   .training-section {
+       padding: 20px;
+   }
+
+   .training-title {
+       font-size: 2.5rem;
+       margin-bottom: 20px;
+   }
+
+   .training-description {
+       font-size: 0.9rem;
+       margin-bottom: 20px;
+   }
+
+   .training-img-container {
+       grid-template-columns: 1fr;
+       gap: 20px;
+   }
+
+   .grid-item.large {
+       grid-column: span 1;
+       grid-row: span 1;
+   }
+
+   /* BMI Calculator Section */
+   .calculate-bmi-section {
+       flex-direction: column;
+       padding: 20px;
+   }
+
+   .bmi-calculator-title,
+   .table-container,
+   .bmi-form-section {
+       max-width: 100%;
+       margin: 20px auto;
+   }
+
+   .bmi-title {
+       font-size: 2.5rem;
+       margin-bottom: 20px;
+   }
+
+   /* Meet Our Team Section */
+   .team-section {
+       padding: 20px;
+   }
+
+   .team-title {
+       font-size: 2.5rem;
+       margin-bottom: 20px;
+   }
+
+   .team-description {
+       font-size: 0.9rem;
+       margin-bottom: 20px;
+   }
+
+   .team-grid {
+       grid-template-columns: 1fr;
+       gap: 20px;
+   }
+
+   /* Footer Section */
+   .footer-content {
+       flex-direction: column;
+       text-align: center;
+       gap: 30px;
+       padding: 20px;
+   }
+
+   .footer-title {
+       font-size: 3rem;
+       margin-bottom: 20px;
+   }
+
+   .footer-links {
+       flex-direction: column;
+       gap: 20px;
+   }
+
+   .links-column h4 {
+       margin-bottom: 10px;
+   }
+
+   .links-column ul {
+       padding-left: 0;
+   }
+
+   .links-column li {
+       margin-bottom: 8px;
+   }
+
+   .footer-bottom {
+       padding-top: 10px;
+       font-size: 0.75rem;
+   }
+}
+
 
