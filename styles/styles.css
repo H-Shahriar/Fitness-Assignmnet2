@@ -1,0 +1,598 @@
+/* Fonts */
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+.miama-font{
+    font-family: 'Miama', sans-serif;
+ } 
+
+ /* *{
+   margin: 0;
+   padding: 0;
+ } */
+ /* shared styles */
+
+.display-flex{
+   display: flex;
+}
+.bg-primary{
+   background: rgb(17,17,17);
+   background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(50, 50, 50) 100%);
+}
+.bg-dark{
+   background-color: black;
+}
+
+.p-color{
+   color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-primary{
+   background-color: #E6533C;
+   color: white;
+   padding: 16px 46px;
+   font-weight: 600;
+   font-size: 1.12rem;
+   border-radius: 42px;
+   border: none;
+   margin-right: 14px;
+}
+
+ /* Navbar Related Styles */
+ .navbar{
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1060px;
+   margin: 0 auto;
+ }
+ .brand{
+   font-weight: 800;
+   font-style: italic;
+   font-size: 2.25rem;
+   color: #E6533C;
+ }
+ .nav-links{
+   list-style: none;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   border-radius: 49px;
+   padding: 5px; /*Adjust padding for better spacing*/
+   align-items: center;
+}
+
+.nav-item {
+   margin-right: 0; /* Remove individual margin */
+}
+
+.nav-link {
+   text-decoration: none;
+   color: white;
+   font-weight: 400;
+   font-size: 1.125rem;
+   padding: 10px 20px; /* Add padding inside each link */
+   border-radius: 49px; /* Round the edges */
+}
+/* my part */
+ /* .nav-item{
+   margin-right: 0;
+ }
+ 
+.nav-links{
+   list-style: none;
+   border: 1px solid tomato;
+   border-radius: 49px;
+}
+
+.nav-link{
+   text-decoration: none;
+   color: white;
+   font-weight: 400;
+   font-size: 1.125rem;
+} */
+
+/* mypart */
+
+/* Active state */
+.nav-link.active {
+   background-color: #E6533C; /* Highlight active link */
+   color: white; /* Text color for active link */
+   padding: 3px 10px;
+}
+
+/* Banner Related Styles */
+/* Banner Styles */
+.banner {
+   max-width: 1060px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.banner-content {
+   max-width: 520px;
+   text-align: left;
+}
+
+.banner-image-container {
+   position: relative;
+   display: inline-block;
+}
+
+.banner-image {
+   width: 100%;
+   height: auto;
+}
+
+/* Badge Styles */
+.badge {
+   position: absolute;
+   width: 193px; /* Fixed width for the buttons */
+   padding: 15px 20px; /* Adjust padding for better alignment */
+   background-color: rgba(0, 0, 0, 0.4); /* Adjust background for a more transparent effect */
+   color: white;
+   font-weight: 700; /* Make the main text bolder */
+   font-size: 1.5rem; /* Adjust font size for better visibility */
+   border-radius: 15px; /* Adjust border-radius for smoother corners */
+   text-align: center;
+   line-height: 1.2; /* Adjust line-height for better spacing */
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+}
+
+/* Specific badge positioning */
+.badge.top-right {
+   top: 190px;
+   right: -90px;
+}
+
+.badge.bottom-left {
+   bottom: 20px;
+   left: -130px;
+}
+
+/* Adjust the inner text styling */
+.badge span {
+   display: block;
+   font-size: 0.875rem; /* Adjust size of the smaller text */
+   font-weight: 400; /* Regular weight for the subtext */
+   color: rgba(255, 255, 255, 0.7); /* Lighter color for the smaller text */
+   margin-top: 5px; /* Spacing between the main text and the subtext */
+}
+
+/* Circle icon inside the badge */
+.badge .circle {
+   width: 30px;
+   height: 30px;
+   background-color: #E6533C;
+   border-radius: 50%;
+   margin-right: 10px;
+}
+.banner-title{
+   font-weight: 800;
+   font-size: 4.85rem;
+   color: white;
+   /* border: 1px solid tomato; */
+   margin-bottom: 28px;
+}
+
+.banner-description{
+color: rgba(255, 255, 255, 0.5);
+font-size: 1rem;
+margin-bottom: 28px;
+}
+
+.optional{
+   background-color: transparent;
+   border: 1px solid white;
+}
+
+/* Change Your Habits Style */
+.habits-section{
+   max-width: 1044px;
+   margin: 0 auto 58px;
+   text-align: center;
+}
+
+.habits{
+   max-width: 671px;
+   border: 1px solid #000000;
+   margin: 0  auto 58px;
+}
+.habits-title{
+   font-weight: 900;
+   font-size: 3rem;
+   color: white ;
+   margin-top: 100px;
+   margin-bottom: 14px;
+}
+/* .habit-section{
+   max-width: 231px;
+} */
+
+.habit{
+   border-radius: 100%;
+}
+.habit-title{
+   color: white;
+   font-weight: 600;
+   font-size: 1.12rem;
+   margin-bottom: 6px;
+}
+
+.habit-description{
+   font-size: 1 rem;
+}
+
+/* run an extra mile styles */
+
+.mile-section{
+   max-width: 1060px;
+   margin: 0 auto;
+   background-color: rgba(34, 34, 34, 1);
+   border-radius: 18px;
+   align-items: center;
+   justify-content: space-between;
+}
+.mile{
+   max-width: 443px;
+   padding: 40px 165px 40px 54px;
+}
+.mile-title{
+   font-weight: 900;
+   font-size: 3rem;
+   color: white;
+   margin-bottom: 14px;
+}
+.mile-description{
+   margin-bottom: 34px;
+}
+.image-container {
+   width: 366px; /* Updated width */
+   height: 312px; /* Updated height */
+   background-image: url(/images/run.jpg);
+   background-size: 320%;
+   background-position: 70% 30%;
+   border-radius: 18px; /* Updated border-radius */
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+   margin-right: 32px;
+}
+
+/* <!-- Trainings and Exercises --> */
+
+
+.training-section{
+   max-width: 1060px;
+   margin: 0 auto;
+   margin-top: 100px;
+}
+
+.training{
+   max-width: 671px;
+}
+
+.training-title{
+   font-weight: 900;
+   font-size: 3rem;
+   color: white;
+}
+.training-description{
+   font-size: 1rem;
+   margin-bottom: 58px;
+}
+.training-img-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+}
+
+.grid-item {
+   position: relative;
+   overflow: hidden;
+}
+
+.grid-item img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   display: block;
+}
+
+.grid-item.small {
+   grid-row: span 1;
+   grid-column: span 1;
+}
+
+.grid-item.large {
+   grid-row: span 2;
+   grid-column: span 2;
+}
+
+.grid-item.medium {
+   grid-row: span 2;
+   grid-column: span 1;
+}
+
+.bmi{
+   max-width: 671px;
+   margin: 0 auto;
+}
+.bmi-title{
+   font-weight: 900;
+   font-size: 3rem;
+   color: white;
+}
+
+/* bmi calculator table related styles */
+
+.calculate-bmi-section {
+   width: 100%;
+   max-width: 1440px;
+   background-color: rgba(34, 34, 34, 1);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0 auto; 
+}
+
+.bmi-calculator-title{
+   font-weight: 900;
+   color: white;
+   font-size: 1.75rem;
+   margin: 52px 44px 52px 187px;
+}
+
+
+.table-container {
+   width: 310px;
+   margin: 0 auto;
+   margin: 52px 44px 52px 187px;
+}
+
+.bmi-table {
+   width: 100%;
+   border-collapse: collapse;
+   font-family: Arial, sans-serif;
+   background-color: #333;
+   color: #ccc; 
+}
+
+.bmi-table th, .bmi-table td {
+   border: 1px solid #444; 
+   padding: 10px;
+   text-align: left;
+}
+
+.bmi-table th {
+   font-weight: bold;
+   background-color: #222; 
+   color: white;
+}
+
+.bmi-table tbody tr {
+   background-color: #333; 
+}
+
+.bmi-table tbody tr:hover {
+   background-color: #444; 
+}
+
+/* bmi form related styles */
+.bmi-form-section {
+   max-width: 577px;
+   margin: 0 auto;
+   padding: 20px;
+   border-radius: 10px;
+   color: white;
+}
+
+.bmi-form-section h2 {
+   font-weight: 900;
+   font-size: 2rem;
+   margin-bottom: 10px;
+   color: white;
+}
+
+.bmi-form-section .description {
+   font-size: 1rem;
+   color: #ccc;
+   margin-bottom: 20px;
+}
+
+.bmi-form {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.input-group {
+   display: flex;
+   gap: 20px;
+}
+
+.input-group input, .input-group select, .full-width-input select {
+   flex: 1;
+   padding: 10px 15px;
+   font-size: 1rem;
+   background-color: rgba(255, 255, 255, 0.1);
+   color: rgba(255, 255, 255, 0.5);
+   border: none;
+   border-radius: 10px;
+}
+
+.full-width-input {
+   display: flex;
+}
+
+.full-width-input select {
+   flex: 1; 
+   padding: 10px 15px;
+   font-size: 1rem;
+   background-color: #333;
+   color: rgba(255, 255, 255, 0.5);
+   border: none;
+   border-radius: 10px;
+}
+
+/* teams-section-style */
+
+.team-section {
+   max-width: 1060px;
+   margin: 0 auto;
+   padding: 60px 20px;
+   text-align: center;
+   border-radius: 15px; /* Rounded corners for the section */
+}
+
+.team-title {
+   font-size: 2.5rem;
+   font-weight: 900;
+   color: white;
+   margin-bottom: 10px;
+}
+
+.team-description {
+   font-size: 1rem;
+   color: #ccc;
+   margin-bottom: 40px;
+}
+
+.team-grid {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+}
+
+.team-member {
+   position: relative;
+   overflow: hidden;
+   border-radius: 15px;
+   background-color: #333;
+}
+
+.team-member img {
+   width: 100%;
+   height: auto;
+   display: block;
+   border-radius: 15px;
+   transition: transform 0.3s ease;
+}
+
+.team-member:hover img {
+   transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.member-info {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   padding: 15px;
+   background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
+   color: white;
+   text-align: left;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+
+.member-info h3 {
+   font-size: 1.25rem;
+   font-weight: bold;
+   margin: 0;
+}
+
+.member-info p {
+   font-size: 0.875rem;
+   margin: 5px 0 0;
+}
+
+
+/* footer styles */
+footer{
+   background-color: rgba(57, 53, 53, 0.861);
+}
+.footer-section {
+   max-width: 2000px;
+   margin: 0 auto;
+   padding: 40px 20px;
+}
+.footer-title{
+   font-weight: 800;
+   font-size: 4.3rem;
+   color: #E55238;
+   font-style: italic;
+}
+.footer-content {
+   max-width: 1060px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+
+.footer-brand {
+   max-width: 443px;
+   color: white;
+}
+
+.footer-brand h3 {
+   font-size: 2rem;
+   font-weight: bold;
+   color: #E55238; /* Color for the "Fitness" title */
+   margin-bottom: 15px;
+}
+
+.footer-brand p {
+   font-size: 1rem;
+   color: #ccc;
+   line-height: 1.5;
+}
+
+.footer-links {
+   display: flex;
+   gap: 60px;
+   max-width: 514px;
+}
+
+.links-column h4 {
+   font-size: 1.25rem;
+   font-weight: bold;
+   color: white;
+   margin-bottom: 15px;
+}
+
+.links-column ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+.links-column li {
+   margin-bottom: 10px;
+}
+
+.links-column a {
+   text-decoration: none;
+   color: #ccc;
+   font-size: 1rem;
+   transition: color 0.3s;
+}
+
+.links-column a:hover {
+   color: white;
+}
+
+.footer-bottom {
+   max-width: 1060px; /* Align the line with the content max-width */
+   margin: 0 auto;
+   text-align: center;
+   padding-top: 20px;
+   border-top: 1px solid rgba(255, 255, 255, 0.2); /* The horizontal line */
+   color: #ccc;
+   font-size: 0.875rem;
+   margin-top: 30px;
+}
+
+
+/* responsive design */
+
